@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "light:block/lightconcentrator"
+    },
+    "facing=east": {
+      "model": "light:block/lightconcentrator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "light:block/lightconcentrator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "light:block/lightconcentrator",
+      "y": 270
+    }
+  }
+}

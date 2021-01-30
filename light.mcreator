@@ -1,0 +1,161 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Light",
+      "type": "particle",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light"
+    },
+    {
+      "name": "LightOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_ore"
+    },
+    {
+      "name": "Lightenergyfragment",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightenergyfragment"
+    },
+    {
+      "name": "Lightt",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightt"
+    },
+    {
+      "name": "Lightenergyfragmentfiring",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightenergyfragmentfiring"
+    },
+    {
+      "name": "Lightconcentrator",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightconcentrator"
+    },
+    {
+      "name": "LightC",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_c",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightGUI",
+      "type": "gui",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "light_gui"
+    },
+    {
+      "name": "LiZiShengChengTiaoJian",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "li_zi_sheng_cheng_tiao_jian",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.light.lightenergyfragment": "Light energy fragment",
+      "block.light.light_ore": "Light Ore",
+      "itemGroup.tablightt": "Light",
+      "block.light.lightconcentrator": "Lightconcentrator"
+    },
+    "zh_cn": {
+      "item.light.lightenergyfragment": "光能碎片",
+      "block.light.light_ore": "光能矿",
+      "itemGroup.tablightt": "光",
+      "block.light.lightconcentrator": "光能收集器"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "light",
+    "modName": "light",
+    "version": "1.0.0",
+    "description": "随手制作的",
+    "author": "FEL1X TeA",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "lightenergycollector",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.light",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

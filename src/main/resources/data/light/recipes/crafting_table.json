@@ -1,0 +1,12 @@
+{
+  "group": "light",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 160,
+  "ingredient": {
+    "item": "light:light_ore"
+  },
+  "result": {
+    "item": "light:lightenergyfragment"
+  }
+}

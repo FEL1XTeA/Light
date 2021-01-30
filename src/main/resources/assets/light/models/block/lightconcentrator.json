@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "light:blocks/gjnq",
+    "up": "light:blocks/guang_ju_neng_qi",
+    "north": "light:blocks/gjnq",
+    "east": "light:blocks/gjnq",
+    "south": "light:blocks/gjnq",
+    "west": "light:blocks/gjnq",
+    "particle": "light:blocks/gjnq"
+  }
+}
